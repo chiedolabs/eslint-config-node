@@ -18,5 +18,5 @@ Add to your project by creating an <code>.eslintrc</code> file and then setting 
 
 1. Make a change
 2. Commit your changes to git and push your changes to Github.
-3. run <code>npm version minor</code>
+3. run <code>npm version patch</code>
 4. run <code>npm publish</code>
