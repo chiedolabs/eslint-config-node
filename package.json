@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-chiedo-labs-node",
+  "version": "0.0.1",
+  "description": "Chiedo Labs Eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiedolabs/eslint-config-node.git"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint"
+  ],
+  "author": "chiedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiedolabs/eslint-config-node/issues"
+  },
+  "homepage": "https://github.com/chiedolabs/eslint-config-node#readme",
+  "dependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-mocha": "^5.2.0"
+  }
+}
