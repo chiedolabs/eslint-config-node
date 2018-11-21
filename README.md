@@ -17,6 +17,12 @@ Add to your project by creating an <code>.eslintrc</code> file and then setting 
 ## Development
 
 1. Make a change
-2. Commit your changes to git and push your changes to Github.
-3. run <code>npm version patch</code>
-4. run <code>npm publish</code>
+2. Commit your changes to git and push your changes to a branch on Github.
+3. Submit a pull request
+
+
+## Deployment (For those with access)
+
+1. run <code>npm login</code> in the terminal
+2. run <code>npm version patch</code>
+3. run <code>npm publish</code>
