@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chiedolabs/eslint-config-node.git"
+    "url": "git@github.com:chiedolabs/eslint-config-node.git"
   },
   "keywords": [
     "eslintconfig",
@@ -20,7 +20,7 @@
     "url": "https://github.com/chiedolabs/eslint-config-node/issues"
   },
   "homepage": "https://github.com/chiedolabs/eslint-config-node#readme",
-  "peerDependencies": {
+  "devDependencies": {
     "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
