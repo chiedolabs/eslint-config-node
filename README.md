@@ -14,6 +14,10 @@ Add to your project by creating an <code>.eslintrc</code> file and then setting 
 	    "extends": "eslint-config-chiedo-labs-node"
 	  }
 
+Update `package.json` to always download latest version of Chiedo Labs eslint config:
+
+    "eslint-config-chiedo-labs-node": "latest",
+
 ## Development
 
 1. Make a change
