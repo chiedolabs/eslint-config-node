@@ -1,7 +1,8 @@
 module.exports = {
   "extends": "airbnb-base",
   "rules": {
-    "mocha/no-exclusive-tests": "error"
+    "mocha/no-exclusive-tests": "error",
+    "no-underscore-dangle": ["error", { "allowAfterThis": true }]
   },
   "parserOptions": {
     "ecmaVersion": 2018,
