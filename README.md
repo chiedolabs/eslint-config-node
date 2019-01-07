@@ -6,17 +6,17 @@ This is the Chiedo Labs eslint configuration file for Node.JS projects. Currentl
 
 Install this eslint config on npm by running
 
-	  yarn add --dev eslint eslint-config-chiedo-labs-node eslint-config-airbnb-base eslint-plugin-import eslint-plugin-mocha
+	  yarn add --dev eslint @chiedolabs/eslint-config-node eslint-config-airbnb-base eslint-plugin-import eslint-plugin-mocha
 
 Add to your project by creating an <code>.eslintrc</code> file and then setting the contents to the following.
 
 	  {
-	    "extends": "eslint-config-chiedo-labs-node"
+	    "extends": "@chiedolabs/eslint-config-node"
 	  }
 
 Update `package.json` to always download latest version of Chiedo Labs eslint config:
 
-    "eslint-config-chiedo-labs-node": "latest",
+    "@chiedolabs/eslint-config-node": "latest",
 
 ## Development
 
