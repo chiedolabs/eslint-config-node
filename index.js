@@ -4,6 +4,7 @@ module.exports = {
     "mocha/no-exclusive-tests": "error",
     "no-underscore-dangle": "off",
     "require-await": "error",
+    "import/no-extraneous-dependencies": ["error", {"optionalDependencies": false, "peerDependencies": false}],
   },
   "parserOptions": {
     "ecmaVersion": 2018,
