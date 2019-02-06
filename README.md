@@ -30,3 +30,7 @@ Update `package.json` to always download latest version of Chiedo Labs eslint co
 1. run <code>npm login</code> in the terminal
 2. run <code>npm version patch</code>
 3. run <code>npm publish</code>
+
+## Submitting Issues
+
+Issues for this project are tracked in the [Node core repo](https://github.com/chiedolabs/node-core). Please submit any issues you have there and prefix your issue with [eslint].
