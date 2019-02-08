@@ -26,5 +26,15 @@ module.exports = {
   },
   "plugins": [
     "mocha"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "**/*.test.js"
+      ],
+      "env": {
+        "jest": true
+      }
+    }
   ]
 }
