@@ -1,6 +1,6 @@
 {
   "name": "@chiedolabs/eslint-config-node",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Chiedo Labs Eslint config",
   "main": "index.js",
   "scripts": {
